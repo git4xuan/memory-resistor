@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.4.7)  11 MAY 2015 23:20
+This is XeTeX, Version 3.14159265-2.6-0.99991 (TeX Live 2014/W32TeX) (preloaded format=xelatex 2015.4.7)  13 MAY 2015 14:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1181,20 +1181,28 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: pic/memristor01.jpeg Graphic file (type QTm)
 
-<use  "pic/memristor01.jpeg" > [2]
+<use  "pic/memristor01.jpeg" >
+File: pic/4.pdf Graphic file (type QTm)
+ <use  "pic/4.pdf" > [2]
+File: pic/memristor01.jpeg Graphic file (type QTm)
+
+<use  "pic/memristor01.jpeg" >
 File: pic/no2.jpeg Graphic file (type QTm)
- <use  "pic/no2.jpeg" > [3] [4] (./mr.aux)
+ <use  "pic/no2.jpeg" >
+File: pic/7.pdf Graphic file (type QTm)
+ <use  "pic/7.pdf" >
+[3] [4] [5] [6] (./mr.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 21329 strings out of 493724
- 423030 string characters out of 6151022
- 460558 words of memory out of 5000000
- 24443 multiletter control sequences out of 15000+600000
+ 21336 strings out of 493724
+ 423079 string characters out of 6151022
+ 462727 words of memory out of 5000000
+ 24448 multiletter control sequences out of 15000+600000
  10184 words of font info for 65 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
- 63i,10n,71p,10364b,239s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 63i,10n,71p,10364b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on mr.pdf (4 pages).
+Output written on mr.pdf (6 pages).

@@ -1,5 +1,6 @@
 \contentsline {section}{\numberline {1}前言}{2}
 \contentsline {section}{\numberline {2}背景介绍}{2}
-\contentsline {section}{\numberline {3}忆阻器的理论和性能}{3}
-\contentsline {section}{\numberline {4}一个常见原型}{4}
-\contentsline {section}{\numberline {5}忆阻器的未来}{4}
+\contentsline {section}{\numberline {3}忆阻是如何被发现的}{2}
+\contentsline {section}{\numberline {4}忆阻器的理论和性能}{5}
+\contentsline {section}{\numberline {5}一个常见原型}{5}
+\contentsline {section}{\numberline {6}忆阻器的未来}{5}

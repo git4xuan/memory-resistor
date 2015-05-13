@@ -12,10 +12,10 @@
 \usepackage{url}
 %\usepackage{graphicx} %使用graphicx包
 \usepackage{graphicx}
-\DeclareGraphicsExtensions{.eps,.pdf,.jpg,.png}
-\DeclareGraphicsRule{.jpg}{eps}{.bb}{}
-\DeclareGraphicsRule{.png}{eps}{.bb}{}
-\DeclareGraphicsRule{.pdf}{eps}{.bb}{}
+%\DeclareGraphicsExtensions{.eps,.pdf,.jpg,.png}
+%\DeclareGraphicsRule{.jpg}{eps}{.bb}{}
+%\DeclareGraphicsRule{.png}{eps}{.bb}{}
+%\DeclareGraphicsRule{.pdf}{eps}{.bb}{}
 
 
 \usepackage{amsmath}
@@ -48,25 +48,53 @@
 
 \section{背景介绍}
 %先是全中文的
-1971年华裔科学家蔡少棠提出忆阻的概念，在研究电荷、电流、电压和磁通量之间的关系时，外推了对称的非线性电阻（电压与电流），非线性电容器（电压与电荷），和非线性电感（磁通量与电流）之间的的概念，他推断在电阻、电容和电感器之外，应该还有一种组件，代表着电荷与磁通量之间的关系。由这张图可以很好地展现四种基本元件的关系。
+1971年华裔科学家蔡少棠提出忆阻的概念，在研究电荷、电流、电压和磁通量之间的关系时，外推了对称的非线性电阻（电压与电流），非线性电容器（电压与电荷），和非线性电感（磁通量与电流）之间的的概念，
+他推断在电阻、电容和电感器之外，应该还有一种组件，代表着电荷与磁通量之间的关系。由这张图可以很好地展现四种基本元件的关系。
+
 
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=1.77in,height=1.75in]{pic/memristor01.jpeg}
 %\caption{This is an inserted JPG graphic}  这个选项需要添加figure后才可用
 \caption{四种基本元器件}
-\label{fig:graph}
+\label{fig:3}
 \end{figure}
+
+
 
 在理论提出之前，蔡少棠发现在电流（i）、电压（v），电荷（q）及磁通量（$\phi_{B}$）4种变量之间的6种关系有5种是已知的，从图中我们可以看到，电阻是电压和电流之间的关系，电感是电流和磁通量之间的关系，电容是电压和电荷之间的关系，忆阻理论的提出很好的填补了四种基本物理量关系的空白。
 在理论提出的当时，还没有实际的器件，只是在数学模型上忆阻应该存在。%这里找当时原论文的出处
 
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.77in,height=1.75in]{pic/4}
+%\caption{This is an inserted JPG graphic}  这个选项需要添加figure后才可用
+\caption{忆阻推论}
+\label{fig:4}
+\end{figure}
+
+
+
+\section{忆阻是如何被发现的}
+
 这一理论可追溯到上世纪90年代末，当时惠普公司高级研究员Stan Williams建立了该公司的信息和量子系统实验室，以便开拓未来20年的计算技术。40年来，工业界不断制造基于摩尔定律的更小、更便宜的晶体管。于是，Williams研究团队开始研发越来越小的晶体管，这致使他们考虑当设备缩小到单个分子大小时会发生什么，以及单个原子运动将如何影响其性能。
+
+
+
+
 在一次试验中，Stanley Williams 的团队发现，一块极薄的二氧化钛被夹在两个电极中间，这
 些二氧化钛又被分成两个部份，一半是正常的二氧化钛，另一半进行“掺杂”，使氧原子数减少。因此“掺杂”的那一半带正电，电流通过时电阻比较小，而且当电流从“掺杂”的一边通向正常的一边时，在电场的影响之下缺氧的“掺杂物”会逐渐往正常的一侧游移，使得以整块材料来言，“掺杂”的部份会占比较高的比重，整体的电阻也就会降低。反之，当电流从正常的一侧流向“掺杂”的一侧时，电场会把缺氧的“掺杂物”从回推，电阻就会跟着增加。
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=1.77in,height=1.75in]{pic/memristor01.jpeg}
+
+\caption{氧原子流动示意图}
+\label{fig:graph}
+\end{figure}
 
 
-这里以HP公司提出的一个理论模型为例对其进行解释。
+
+%这里以HP公司提出的一个理论模型为例对其进行解释。
 ，如图示。掺杂了氧空位的氧化钛 层电阻较小，纵横 闩中掺杂层所占比例较大，纵横闩处于导通状态 ；无掺杂氧空 位的氧化钛层 电阻较大，纵横闩中无掺杂层所 占比例较大，纵横闩处于断路状 态。纵横闩的电阻可以简单的看做是掺杂部分 电阻和无掺杂部分的电阻之和。 令纵横闩的总厚度为D，掺杂层的即时厚度为$\mathnormal{w(t)}   $，若纵横闩全部为掺杂层 ， 总电阻记为$R_{ON}$ ，那么掺杂层的即时电阻为$R_{ON} \frac{\mathnormal{w_{t}}}{\mathnormal{D}}$。若纵横闩全部为无掺杂 层，总电阻记为$R_{OFF}$ ，无掺杂层的即时电阻为$R_{OFF}(1 - \frac{w_{t}}{D})$。当忆阻器电极施 加偏置电压$v(t)$，忆阻器内部会导致离子迁移。设在理 欧姆接触及线性的 电子迁移的情况下，离子迁移率为$\mu_{\gamma}$
 \begin{equation}
 v_{t} = (R_{ON} \frac{w_{t}}{D} + R_{OFF}(1 - \frac{w_{t}}{D}) ) i(t)
@@ -95,6 +123,17 @@ HP的两个不同团队的研究成果：
 %
 %+ Crossbar Latch 原理  ----
 %Crossbar Latch 的原理是由一排横向和一排纵向的电线组成的网格，在每一个交叉点上，放上一个「开关」连结一条横向和纵向的电线。让这两条电线控制这个开关的状态，使其产生开、关两种状态，这样可以和计算机额的0、1相对应。那网格上的每一个交叉点都能储存一个位的数据。
+我们结合实现的一个典型的忆阻做成的开关的图来看：
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=5.77in,height=3.75in]{pic/7}
+
+\caption{忆阻门}
+\label{fig:7}
+\end{figure}
+图中形成一个类似三明治的结构，最上方是纳米级的导线，中间部分是$TiO_{2}$层，内部包含游离的氧原子，下部是$TiO_{3}$层，内部原子结合较为稳定。最下方是又一根纳米数量级导线
+
+
 
 %+ Stanley Williams ----二氧化硅当作忆阻器----（带图的）
 %%%%下面是性能部分，需要更多的修改
