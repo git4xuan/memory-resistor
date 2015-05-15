@@ -1,0 +1,53 @@
+\begin{thebibliography}{10}
+
+\bibitem{ou}
+澳开发出纳米级超快忆阻器.
+\newblock {\em 企业技术开发}, 0(10):10--10, 2014.
+
+\bibitem{mem00}
+Leon~O Chua.
+\newblock Memristor-the missing circuit element.
+\newblock {\em Circuit Theory, IEEE Transactions on}, 18(5):507--519, 1971.
+
+\bibitem{moore1}
+C.~Mack.
+\newblock The multiple lives of moore's law.
+\newblock {\em Spectrum, IEEE}, 52(4):31--31, 2015.
+
+\bibitem{moore2}
+C.~A. Mack.
+\newblock Keynote: Moore's law 3.0.
+\newblock In {\em Microelectronics and Electron Devices (WMED), 2013 IEEE
+  Workshop on}, pages xiii--xiii.
+
+\bibitem{mem10}
+T~Prodromakis, K~Michelakis, and C~Toumazou.
+\newblock Switching mechanisms in microscale memristors.
+\newblock {\em Electronics letters}, 46(1):63--65, 2010.
+
+\bibitem{mem4}
+R.~Williams.
+\newblock How we found the missing memristor.
+\newblock {\em Spectrum, IEEE}, 45(12):28--35, 2008.
+
+\bibitem{mem2013}
+张天雨.
+\newblock 忆阻器的一种简易模型及其分析.
+\newblock {\em 中国科技博览}, (15):434--435, 2013.
+
+\bibitem{mem2010}
+王乐毅.
+\newblock 忆阻器研究进展及应用前景.
+\newblock {\em 电子元件与材料}, (12):71--74, 2010.
+
+\bibitem{mem2009}
+王国权 and 刘亮.
+\newblock 忆阻器应用于人工神经网络的前景与展望.
+\newblock {\em 中国新技术新产品}, (6):18--19, 2009.
+
+\bibitem{mem2012}
+胡舒凯, 吴俊杰, 周海芳, 张拥军, and 方旭东.
+\newblock 忆阻器存储研究与展望.
+\newblock {\em 计算机研究与发展}, (S1):79--84, 2012.
+
+\end{thebibliography}
